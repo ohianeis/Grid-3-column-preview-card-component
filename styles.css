@@ -1,0 +1,102 @@
+
+
+main{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    grid-template-columns: 16rem;
+    grid-template-rows: 23rem 23rem 23rem;
+   
+    
+}
+/*contenido*/
+
+img{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8rem;
+    font-family: 'Lexend Deca';
+    line-height: 1.5;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+
+/*botones*/
+button{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+   
+    width: 8rem;
+    height: 3rem;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+}
+
+#sedans button{
+    color: hsl(31, 77%, 52%);
+    padding: 0;
+}
+
+#suvs button{
+    color: hsl(184, 100%, 22%);
+    
+}
+
+#luxury button{
+    color: hsl(179, 100%, 13%);
+
+    
+}
+
+
+@media only screen and (min-width:1440px){
+
+main{
+    
+    grid-template-columns: 16rem 16rem 16rem;
+    grid-template-rows: 23rem;
+    align-content: center;
+    justify-content: center;
+}
+#sedans{
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+#luxury{
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+    p{
+        font-size: 0.7rem;
+    }
+
+
+}
